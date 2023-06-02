@@ -7,10 +7,9 @@ plt.rcParams['axes.unicode_minus']=False        #显示负号
 
 def main():
     """"""
-    path=["karate.txt","dolphins.txt"]
-    name=['karate','dolphins']
+    path=[r"C:\\Users\\zhangwentao\\Desktop\\大三下学期\\Complex-Network\\karate.txt"]
+    name=['karate']
     result(path[0],name[0])
-    result(path[1],name[1])
 
 def result(path,name):
     """读入文件中的网络，返回平均路径长度、平均聚类系数以及统计度分布"""
